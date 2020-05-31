@@ -3,6 +3,7 @@ import { Text, StyleSheet, View, Button, TouchableOpacity } from "react-native";
 
 const HomeScreen = ({ navigation }) => {
   return (
+
     <View>
       <Text style={styles.textStyle}>HomeScreen</Text>
       <Button
@@ -16,6 +17,8 @@ const HomeScreen = ({ navigation }) => {
         title='Go to Images Demo' />
     </View>
   );
+  
+
 };
 
 const styles = StyleSheet.create({
